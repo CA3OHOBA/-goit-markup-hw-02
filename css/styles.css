@@ -117,13 +117,6 @@ img {
   color: var(--brand-color);
 }
 
-/* PORTFOLIO BUTTONS:HOVER :FOCUS */
-.buttonlist-button:hover,
-.buttonlist-button:focus {
-  color: var(--white-color);
-  background-color: var(--brand-color);
-}
-
 /*   
 
             HERO
@@ -153,6 +146,9 @@ img {
   display: none;
 }
 
+.features .title {
+  color: var(--primary-text-color);
+}
 /*   
 
             SECTION 2 WHAT WE ARE DOING
@@ -164,6 +160,10 @@ img {
              SECTION 3 OUR TEAM
 
 */
+
+.team .title {
+  color: var(--primary-text-color);
+}
 
 /*   
 
@@ -183,4 +183,21 @@ img {
 
 .footer .link {
   color: var(--fotter-link-color);
+}
+
+/*   
+
+            PORTFOLIO
+
+*/
+
+.portfolio-section .title {
+  color: var(--primary-text-color);
+}
+
+/* PORTFOLIO BUTTONS:HOVER :FOCUS */
+.buttonlist-button:hover,
+.buttonlist-button:focus {
+  color: var(--white-color);
+  background-color: var(--brand-color);
 }
