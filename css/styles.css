@@ -7,15 +7,6 @@ white: #FFFFFF
 blue: #2196F3
 background-color: #F5F4FA
 
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --second-accent-color: #ffffff;
-  --background-color: #F5F4FA;
-  --fotter-link-color: rgba(255, 255, 255, 0.6);
-  --secondary-backround-color: #2f303a;
-}
-
 
 */
 
@@ -43,11 +34,17 @@ background-color: #F5F4FA
 .page {
   color: var(--secondary-text-color);
   background-color: var(--background-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .section-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -80,7 +77,7 @@ img {
 
 /*   
 
-            HEADER
+            HEADER *************************************************************************************************************
 
 */
 
@@ -105,12 +102,23 @@ img {
 
 /* LINKS:HOVER :FOCUS */
 
-.site-nav-link {
+.site-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.07;
+  letter-spacing: 0.02em;
 }
 
 .site-nav-address {
   color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav a:hover,
@@ -124,7 +132,7 @@ img {
 
 /*   
 
-            HERO
+            HERO *************************************************************************************************
 
 */
 
@@ -134,19 +142,29 @@ img {
 
 .hero-title {
   color: var(--white-color);
-  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
   text-align: center;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero .button {
   color: var(--white-color);
   background-color: var(--brand-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /*   
 
-            SECTION 1 WITH HIDDEN H2
+            SECTION 1 WITH HIDDEN H2  *********************************************************
 
 */
 
@@ -156,17 +174,27 @@ img {
 
 .features .title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 /*   
 
-            SECTION 2 WHAT WE ARE DOING
+            SECTION 2 WHAT WE ARE DOING  *********************************************************
 
 */
 
 /*   
 
-             SECTION 3 OUR TEAM
-
+             SECTION 3 OUR TEAM  *********************************************************
+ 
 */
 .section.team {
   background-color: var(--secondary-backround-color);
@@ -174,11 +202,22 @@ img {
 
 .team .title {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team .profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 
 /*   
 
-            FOOTER
+            FOOTER  *********************************************************
 
 */
 .footer {
@@ -194,11 +233,12 @@ img {
 
 .footer .link {
   color: var(--fotter-link-color);
+  font-style: normal;
 }
 
 /*   
 
-            PORTFOLIO
+            PORTFOLIO  *********************************************************
 
 */
 
@@ -207,6 +247,9 @@ img {
 }
 
 /* PORTFOLIO BUTTONS:HOVER :FOCUS */
+.filter-button {
+  background-color: var(--secondary-backround-color);
+}
 .filter-button:hover,
 .filter-button:focus {
   color: var(--white-color);
