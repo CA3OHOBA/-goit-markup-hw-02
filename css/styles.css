@@ -80,10 +80,17 @@ img {
   color: var(--brand-color);
 }
 
+/* NAV */
+
 /* LINKS:HOVER :FOCUS */
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--brand-color);
+}
+
+.site-nav .current {
+    color: var(--brand-color);
+}
 }
 
 /*   
