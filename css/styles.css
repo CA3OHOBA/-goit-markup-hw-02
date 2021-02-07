@@ -91,15 +91,22 @@ img {
   color: var(--brand-color);
 }
 
+/* PORTFOLIO BUTTONS:HOVER :FOCUS */
+.buttonlist .buttonlist-button:hover,
+.buttonlist .buttonlist-button:focus {
+  color: var(--second-accent-color);
+  background-color: var(--brand-color);
+}
+
 /*   
 
             HERO
 
 */
 
-.button {
+.hero .button {
+  color: var(--second-accent-color);
   background-color: var(--brand-color);
-  color: var(--white-color);
 }
 
 /*   
