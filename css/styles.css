@@ -80,8 +80,9 @@ img {
   color: var(--brand-color);
 }
 
-/* LINKS:HOVER */
-.site-nav a:hover {
+/* LINKS:HOVER :FOCUS */
+.site-nav a:hover,
+.site-nav a:focus {
   color: var(--brand-color);
 }
 
@@ -90,6 +91,11 @@ img {
             HERO
 
 */
+
+.button {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
 
 /*   
 
