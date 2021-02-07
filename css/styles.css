@@ -130,6 +130,10 @@ img {
 
 */
 
+.hero {
+  background-color: var(--footer-background-color);
+}
+
 .hero-title {
   color: var(--white-color);
 }
@@ -166,6 +170,9 @@ img {
             FOOTER
 
 */
+.footer {
+  background-color: var(--footer-background-color);
+}
 .footer .logo {
   color: var(--white-color);
 }
