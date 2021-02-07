@@ -92,8 +92,8 @@ img {
 }
 
 /* PORTFOLIO BUTTONS:HOVER :FOCUS */
-.buttonlist .buttonlist-button:hover,
-.buttonlist .buttonlist-button:focus {
+.buttonlist-button:hover,
+.buttonlist-button:focus {
   color: var(--second-accent-color);
   background-color: var(--brand-color);
 }
