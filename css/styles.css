@@ -80,6 +80,11 @@ img {
   color: var(--brand-color);
 }
 
+/* LINKS:HOVER */
+.site-nav a:hover {
+  color: var(--brand-color);
+}
+
 /*   
 
             HERO
