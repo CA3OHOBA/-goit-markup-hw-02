@@ -9,6 +9,47 @@ background-color: #F5F4FA
 
 */
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --special-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+/* var(--primary-text-color);*/
+
+/* ДОМИНАНТНЫЙ ЦВЕТ ТЕКСТА */
+
+body {
+  color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
 /*   
 
             HEADER
