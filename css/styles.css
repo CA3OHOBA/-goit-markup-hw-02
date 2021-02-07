@@ -83,6 +83,10 @@ img {
 
 */
 
+.page-header {
+  background-color: var(--white-color);
+}
+
 /* LOGO */
 .logo {
   color: #000000;
@@ -160,6 +164,9 @@ img {
              SECTION 3 OUR TEAM
 
 */
+.section.team {
+  background-color: var(--secondary-backround-color);
+}
 
 .team .title {
   color: var(--primary-text-color);
