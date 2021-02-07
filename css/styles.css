@@ -229,6 +229,7 @@ img {
 
 .footer .address {
   color: var(--white-color);
+  font-style: normal;
 }
 
 .footer .link {
@@ -244,12 +245,28 @@ img {
 
 .portfolio-section .title {
   color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-section .type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* PORTFOLIO BUTTONS:HOVER :FOCUS */
 .filter-button {
   background-color: var(--secondary-backround-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
+
 .filter-button:hover,
 .filter-button:focus {
   color: var(--white-color);
