@@ -47,6 +47,7 @@ background-color: #F5F4FA
 
 .section-title {
   color: var(--primary-text-color);
+  text-align: center;
 }
 
 ul {
@@ -133,11 +134,14 @@ img {
 
 .hero-title {
   color: var(--white-color);
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .hero .button {
   color: var(--white-color);
   background-color: var(--brand-color);
+  text-align: center;
 }
 
 /*   
