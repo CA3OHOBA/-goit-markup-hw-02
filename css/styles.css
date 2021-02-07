@@ -45,6 +45,10 @@ background-color: #F5F4FA
   background-color: var(--background-color);
 }
 
+.section-title {
+  color: var(--primary-text-color);
+}
+
 ul {
   list-style: none;
 }
@@ -126,6 +130,10 @@ img {
 
 */
 
+.hero-title {
+  color: var(--white-color);
+}
+
 .hero .button {
   color: var(--white-color);
   background-color: var(--brand-color);
@@ -136,6 +144,10 @@ img {
             SECTION 1 WITH HIDDEN H2
 
 */
+
+.hidden {
+  display: none;
+}
 
 /*   
 
