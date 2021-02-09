@@ -116,6 +116,8 @@ img {
   color: var(--brand-color);
 }
 
+
+
 /* NAV */
 
 .menu{
@@ -160,6 +162,12 @@ img {
     margin-right: 30px;
 }
 
+.header-contact-item .site-nav-address {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+}
+
 .site-nav-address {
   color: var(--secondary-text-color);
   font-style: normal;
@@ -175,6 +183,10 @@ img {
   color: var(--brand-color);
 }
 
+.site-nav .studio:hover,
+.site-nav .studio:focus {
+  color: var(--primary-text-color);
+}
 
 
 /*   
