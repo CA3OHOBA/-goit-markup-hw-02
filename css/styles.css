@@ -134,7 +134,7 @@ img {
 }
 
 .site-nav .current {
-  color: var(--brand-color);
+  color: var(--brand-color); /* ПЕРЕСТАЛ РАБОТАТЬ */
 }
 
 
@@ -183,10 +183,6 @@ img {
   color: var(--brand-color);
 }
 
-.site-nav .studio:hover,
-.site-nav .studio:focus {
-  color: var(--primary-text-color);
-}
 
 
 /*   
