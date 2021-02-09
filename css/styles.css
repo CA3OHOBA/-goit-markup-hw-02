@@ -120,7 +120,8 @@ img {
 
 /* NAV */
 
-.site-nav{
+.site-nav,
+.hover{
     display: flex;
     align-items: center;
 }
@@ -181,8 +182,8 @@ img {
   text-decoration: none;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.hover a:hover,
+.hover a:focus {
   color: var(--brand-color);
 }
 
@@ -357,4 +358,3 @@ a.site-nav {
 paddingi v sections
 
 img display: block
-
