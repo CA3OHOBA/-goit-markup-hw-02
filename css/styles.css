@@ -1,19 +1,54 @@
 /*
 COLORS:
-
 black: #212121
 gray: #757575
 white: #FFFFFF
 blue: #2196F3
 background-color: #F5F4FA
 
-
+var(--primary-text-color);
 */
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 *,
 ::after,
 ::before {
   box-sizing: border-box;
+}
+
+
+
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+img {
+  display: block;
 }
 
 :root {
@@ -27,9 +62,9 @@ background-color: #F5F4FA
   --footer-background-color: #2f303a;
 }
 
-/* var(--primary-text-color);*/
 
-/* ДОМИНАНТНЫЙ ЦВЕТ ТЕКСТА */
+
+/* ДОМИНАНТНЫЙ */
 
 .page {
   color: var(--secondary-text-color);
@@ -47,43 +82,24 @@ background-color: #F5F4FA
   letter-spacing: 0.03em;
 }
 
-ul {
-  list-style: none;
-}
 
-a {
-  text-decoration: none;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
 
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
 
-img {
-  display: block;
-}
 
-/*   
-
-            HEADER *************************************************************************************************************
-
-*/
+/*---------- HEADER ----------*/
 
 .page-header {
   background-color: var(--white-color);
+  border-bottom: 1px solid #000;
 }
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /* LOGO */
 .logo {
@@ -92,6 +108,8 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  display: inline-block;
+  margin-right: 93px;
 }
 
 .logo-web {
@@ -100,15 +118,46 @@ img {
 
 /* NAV */
 
-/* LINKS:HOVER :FOCUS */
+.menu{
+    display: flex;
+}
+
+.menu-item .link{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+}
+.menu-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.site-nav .current {
+  color: var(--brand-color);
+}
+
+
+.site-nav{
+    display: flex;
+    align-items: center;
+}
 
 .site-nav .link {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.07;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+/* ADDRESS */
+.header-contacts{
+    display: flex;
+   /*  margin-left: auto; НЕ РАБОТАЕТ auto*/
+    
+}
+
+.header-contact-item{
+    margin-right: 30px;
 }
 
 .site-nav-address {
@@ -126,9 +175,7 @@ img {
   color: var(--brand-color);
 }
 
-.site-nav .current {
-  color: var(--brand-color);
-}
+
 
 /*   
 
@@ -272,3 +319,31 @@ img {
   color: var(--white-color);
   background-color: var(--brand-color);
 }
+
+
+/* 3 домашка 
+
+.container{
+    width: 1200px;
+    pl: 15px;
+    pr: 15px;
+    ml: auto;
+    mr: auto;
+}
+
+.site-nav{
+    display: flex;
+    align-items: center;
+}
+
+a.site-nav {
+    pt: 32px;
+    pb: 32px;
+    display: inline-block;
+}
+
+paddingi v sections
+
+img display: block
+
+
