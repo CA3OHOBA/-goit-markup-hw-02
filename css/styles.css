@@ -120,6 +120,21 @@ img {
 
 /* NAV */
 
+.site-nav{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* MENU */
+
 .menu{
     display: flex;
 }
@@ -138,18 +153,6 @@ img {
 }
 
 
-.site-nav{
-    display: flex;
-    align-items: center;
-}
-
-.site-nav .link {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 
 /* ADDRESS */
 .header-contacts{
@@ -354,5 +357,4 @@ a.site-nav {
 paddingi v sections
 
 img display: block
-
 
