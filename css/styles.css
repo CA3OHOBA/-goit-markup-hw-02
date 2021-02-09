@@ -133,8 +133,8 @@ img {
     margin-right: 50px;
 }
 
-.site-nav .current {
-  color: var(--brand-color); /* ПЕРЕСТАЛ РАБОТАТЬ */
+.site-nav .link.current {
+  color: var(--brand-color);
 }
 
 
@@ -154,7 +154,7 @@ img {
 /* ADDRESS */
 .header-contacts{
     display: flex;
-   /*  margin-left: auto; НЕ РАБОТАЕТ auto*/
+   margin-left: auto;
     
 }
 
@@ -215,6 +215,7 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border: none;
 }
 
 /*   
